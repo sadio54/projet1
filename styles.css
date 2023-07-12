@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "bariol";
+    src: url("../1font/bariol_bold-webfont.woff");
+}
+
+@font-face{
+    font-family:"Bariolthin";
+    src:url("../1font/bariol_thin_italic-webfont.woff");
+}
+@font-face{
+    font-family:"Cooper";
+    src:url("../1font/28\ -\ cooperm.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(#FFFFFF, #B34EF6);
+    min-height: 100vh;
+}
+h1 {
+    float: left;
+    margin-left: 10px;
+    font-family: bariol;
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: bariolthin;
+    
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:visited{
+    color: black;
+}
+
+nav ul li a:hover{
+    color: plum;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:visited{
+    color: black;
+}
+
+h1 a:hover{
+    color: plum;
+}
+
+main {
+    clear: both;
+    margin-left: 10px;
+}
+
+main h3 {
+    padding-top: 90px;
+    font-size: 60px;
+    font-family: cooper;
+}
+
+
+/* DIV APPLY */
+.apply{
+    clear: both;
+    padding-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: Cooper;
+
+}
+
+/* SVG barbecue */
+.svg-barbecue svg{
+    width: 25%;
+    height: 25%;
+}
+.svg-barbecue{
+    margin-left: 100px;
+}
+
+
+#fumee{
+    animation-name: fumee;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fumee{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+/* DIV ABOUT */
+.about{
+    clear: both;
+    padding: 20px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: Cooper;
+}
+
+/* SVG ABOUT */
+.about-svg svg {
+    width: 50%;
+    height: 50%;
+}
+.about-svg{
+    margin-left: 40px;
+}
+
+#coeurs{
+    animation-name: coeurs;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes coeurs{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#artificiel{
+    animation-name: artificiel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes artificiel{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+/* DIV PLACES */
+.places{
+    clear: both;
+    margin-left: 35%;
+    font-family: Cooper;
+    padding-top: 30px;
+}
+/* SVG PLACES */
+.places-svg svg {
+    width: 50%;
+    height: 50%;
+}
+.places-svg {
+    margin-left: 40px;
+}
+
+/* SVG */
+svg{
+    width: 80%;
+    height: 80%;
+}
+.svg{
+    margin-left: 500px;
+    margin-top: -150px;
+}
+#skate{
+    animation-name: skate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes skate{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(25deg);
+    }
+}
